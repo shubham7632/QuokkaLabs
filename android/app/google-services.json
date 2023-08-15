@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074807068409",
+    "project_id": "quokka-labs-project",
+    "storage_bucket": "quokka-labs-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074807068409:android:a0dc9e76a6e6870b2ef428",
+        "android_client_info": {
+          "package_name": "com.quokkalabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074807068409-hubcbm0cuh026vms8re4os12i0hkoo7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl8Zd6n58H6agPLFwN4HpdPDmPPEFPWBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074807068409-hubcbm0cuh026vms8re4os12i0hkoo7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
