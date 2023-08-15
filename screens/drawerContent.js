@@ -1,9 +1,9 @@
-import React from 'react';
-import DeviceInfo from 'react-native-device-info';
-import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 import auth from '@react-native-firebase/auth';
-import { useDispatch, useSelector } from 'react-redux';
+import { useNavigation } from '@react-navigation/native';
+import React from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import DeviceInfo from 'react-native-device-info';
+import { useDispatch } from 'react-redux';
 import { saveLoggedIn, saveUserData } from '../redux/presistReducer';
 
 

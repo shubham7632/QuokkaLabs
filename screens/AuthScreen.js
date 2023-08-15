@@ -1,9 +1,9 @@
-import React, { useState,useEffect } from 'react';
-import { View, TextInput, Button, TouchableOpacity, Text, StyleSheet, Alert } from 'react-native';
+import CheckBox from '@react-native-community/checkbox';
 import auth from '@react-native-firebase/auth';
-import CheckBox from '@react-native-community/checkbox'
 import { useNavigation } from '@react-navigation/native';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useState } from 'react';
+import { Alert, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { useDispatch } from 'react-redux';
 import { saveLoggedIn, saveUserData } from '../redux/presistReducer';
 
 const AuthScreen = () => {

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { View, TextInput, Button, TouchableOpacity,Text, StyleSheet, ImageBackground } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = () => {
 
   return (
     <View style={styles.container}>

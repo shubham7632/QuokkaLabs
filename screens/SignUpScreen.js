@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import { View, TextInput, Button, TouchableOpacity, Text, StyleSheet, Alert,Image } from 'react-native';
 import auth from '@react-native-firebase/auth';
-import CheckBox from '@react-native-community/checkbox'
 import { useNavigation } from '@react-navigation/native';
-import { useDispatch, useSelector } from 'react-redux';
-import { saveLoggedIn, saveUserData } from '../redux/presistReducer';
+import React, { useState } from 'react';
+import { Alert, Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const SignUpScreen = () => {
     const [email, setEmail] = useState('');
